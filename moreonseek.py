@@ -1,0 +1,8 @@
+f = open("viju.txt")
+print(f.tell())
+f.seek(12)
+print(f.read())
+print(f.tell())
+f.seek(0)
+print(f.read())
+f.close()
